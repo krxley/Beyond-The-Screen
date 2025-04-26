@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Beyond the Screen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Karl's Beyond the Screen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h2 class="text-center mb-4">📝 Developer Diary</h2>
+    <p class="lead">Welcome to my blog—a space where I share my thoughts, ideas, and experiences as a first-year BSIT student. Here, I post about the things I’m learning in school, the projects I’m working on, and tips that help me grow as a future developer. Whether it’s discovering a new piece of code, reflecting on challenges I’ve faced, or simply sharing my interests in tech and creativity, this blog is all about my journey. It’s a mix of personal insight and tech exploration, and I hope it inspires fellow students and aspiring devs like me.</p><hr>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card bg-gray border-secondary h-100">
+          <div class="card-body">
+            <h5 class="card-title">Why I Chose Software Development</h5>
+            <p class="card-text">A quick dive into what led me to pursue programming and the moment I realized I wanted to build things for the web.</p>
+            <a href="#" class="ReadMore-button">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-gray border-secondary h-100">
+          <div class="card-body">
+            <h5 class="card-title">My First VB.NET Project</h5>
+            <p class="card-text">Reflections on building a water billing app and how it taught me the value of logic and structure in programming.</p>
+            <a href="#" class="ReadMore-button">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-gray border-secondary h-100">
+          <div class="card-body">
+            <h5 class="card-title">Learning Bootstrap</h5>
+            <p class="card-text">How Bootstrap helped me bring design and responsiveness to life while building this website.</p>
+            <a href="#" class="ReadMore-button">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card bg-gray border-secondary h-100">
+          <div class="card-body">
+            <h5 class="card-title">My First VB.NET Project</h5>
+            <p class="card-text">Reflections on building a water billing app and how it taught me the value of logic and structure in programming.</p>
+            <a href="#" class="ReadMore-button">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 border-top border-secondary">
+    <p>&copy; 2025 Beyond the Screen. All rights reserved.</p>
+  </footer>
+
+    <style>
+  body {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  .btn-outline-light {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn-outline-light:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .nav-link.active {
+  border-bottom: 3px solid var(--accent-color);
+  font-weight: bold;
+  color: skyblue;
+}
+.navbar{
+  padding:  1.5rem 0 !important;
+}
+.navbar-brand{
+  font-weight:  bold !important;
+  font-size: 1.5rem !important;
+}
+.navbar-nav .nav-link{
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.navbar-toggler{
+  font-size: 1.5rem !important;
+}
+.navbar-dark  .navbar-nav .nav-link{
+  color: #ffffff !important;
+}
+.navbar-dark  .navbar-nav .nav-link:hover{
+  color: #007bff !important;
+}
+.nav-link.active{
+  color:  #007bff !important;
+  font-weight: bold;
+  border-bottom: 2px solid  #007bff;
+}
+
+.ReadMore-button {        
+      color: maroon;      
+      margin-top: 5px;  
+      font-weight: bold; 
+      padding: 5px 10px; 
+      border-radius: 4px; 
+      display: inline-block;
+      text-decoration: none; 
+      background-color: lightgray;
+      transition: background-color 0.3s, color 0.3s;
+    }  
+    .ReadMore-button:hover {    
+      color: white;  
+      background-color: skyblue;
+    }
+</style>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

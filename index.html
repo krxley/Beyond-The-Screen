@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Beyond the Screen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Karl's Beyond the Screen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center py-5 bg-black">
+    <h1 class="display-4">Welcome to Beyond the Screen 👨🏻‍💻</h1><br>
+    <p class="lead">Hi, I’m Karl Ashley S. Besa, but you can call me "Karl", and I'm 19 years old. I was born on February 1, 2006. At the
+  moment I live here at Lomboy,<br>Villasis, Pangasinan. I'm currently taking Bachelor of Science in Information Technology as a first-year student at the University of Eastern Pangasinan.<br>I’m passionate about developing smart, creative, and practical software solutions. Whether I’m working on a personal portfolio, a student dashboard,<br>or a billing system, I focus on building clean, user-friendly experiences using technologies like C++, HTML, CSS, JavaScript, and VB.NET. I love solving<br>complex challenges through thoughtful design and code, and I’m always eager to learn and grow as a developer.</p>
+    <a href="portfolio.html" class="btn btn-outline-light mt-3">View My Projects</a>
+  </header>
+
+  <section class="hobbies-section container">
+    <h2 class="text-center mb-4">My Hobbies 💭</h2><hr>
+    <div class="mb-3">
+      <button class="hobby-button btn btn-outline-light mt-3">👨🏻‍💻 Coding</button>
+      <div class="hobby-description">Coding is not just a skill—it's a passion. I enjoy building apps and websites, solving problems, and learning new languages.</div>
+    </div>
+    <div class="mb-3">
+      <button class="hobby-button btn btn-outline-light mt-3">🕹️ Gaming</button>
+      <div class="hobby-description">Gaming helps me unwind, improves strategic thinking, and keeps my mind active. I enjoy story-driven RPGs and competitive multiplayer games.</div>
+    </div>
+    <div class="mb-3">
+      <button class="hobby-button btn btn-outline-light mt-3">🎧 Listening to Music</button>
+      <div class="hobby-description">Music is my escape. I love discovering new genres, creating playlists, and tuning in while coding or relaxing.</div>
+    </div>
+    <div class="mb-3">
+      <button class="hobby-button btn btn-outline-light mt-3">📷 Photography</button>
+      <div class="hobby-description">Capturing moments through photography lets me explore creativity and perspective. I enjoy landscape and candid shots.</div>
+    </div>
+    <div class="mb-3">
+      <button class="hobby-button btn btn-outline-light mt-3">📖 Reading Books</button>
+      <div class="hobby-description">Reading expands my knowledge and fuels my imagination. I read both tech books and fiction in my spare time.</div>
+    </div>
+    <div class="mb-3">
+      <button class="hobby-button btn btn-outline-light mt-3">✈️ Traveling</button>
+      <div class="hobby-description">Traveling inspires me with new cultures, food, and scenery. I enjoy weekend getaways and nature trips.</div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 border-top border-secondary">
+    <p>&copy; 2025 Beyond the Screen. All rights reserved.</p>
+  </footer>
+
+  <style>
+  body {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  .btn-outline-light {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn-outline-light:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  }
+
+  .nav-link.active {
+  border-bottom: 3px solid var(--accent-color);
+  font-weight: bold;
+  color: skyblue;
+}
+.navbar{
+  padding:  1.5rem 0 !important;
+}
+.navbar-brand{
+  font-weight:  bold !important;
+  font-size: 1.5rem !important;
+}
+.navbar-nav .nav-link{
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.navbar-toggler{
+  font-size: 1.5rem !important;
+}
+.navbar-dark  .navbar-nav .nav-link{
+  color: #ffffff !important;
+}
+.navbar-dark  .navbar-nav .nav-link:hover{
+  color: #007bff !important;
+}
+.nav-link.active{
+  color:  #007bff !important;
+  font-weight: bold;
+  border-bottom: 2px solid  #007bff;
+}
+.hobbies-section {
+      padding: 3rem 1rem;
+      margin-top: 3rem;
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+    .hobby-button {
+      background: transparent;
+      border: 2px solid var(--color-accent);
+      color: var(--text-color);
+      border-radius: 10px;
+      padding: 1rem;
+      width: 100%;
+      text-align: left;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .hobby-button:hover {
+      background: var(--color-accent);
+      color: #fff;
+    }
+    .hobby-description {
+      display: none;
+      margin-top: 0.5rem;
+      padding-left: 1rem;
+      font-size: 0.95rem;
+      color: var(--text-color);
+    }
+</style>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    document.querySelectorAll('.hobby-button').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const desc = btn.nextElementSibling;
+        desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Beyond the Screen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">Karl's Beyond the Screen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h2 class="text-center mb-4">🛠 My Services</h2>
+    <p class="lead">As an aspiring developer, I offer basic web development and design services tailored for small projects and student needs. My skills include creating responsive websites using HTML, CSS, and Bootstrap, as well as building simple applications with JavaScript and VB.NET. Whether you need a personal website, a class project interface, or a simple CRUD system, I’m here to help bring your idea to life.</p><hr>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card bg-black border-secondary h-100 btn btn-outline-light mt-3">
+          <div class="card-body btn btn-outline-light mt-3">
+            <h5 class="card-title">Web Design</h5>
+            <p class="card-text">I design clean, responsive websites using HTML, CSS, and Bootstrap that look great on any device.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-black border-secondary h-100 btn btn-outline-light mt-3">
+          <div class="card-body btn btn-outline-light mt-3">
+            <h5 class="card-title">Front-End Development</h5>
+            <p class="card-text">I build user interfaces using HTML, CSS, JavaScript, and Bootstrap with an eye for usability and accessibility.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-black border-secondary h-100 btn btn-outline-light mt-3">
+          <div class="card-body btn btn-outline-light mt-3">
+            <h5 class="card-title">Back-End Basics</h5>
+            <p class="card-text">I create simple data-driven applications with VB.NET and work with databases for CRUD operations and forms.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-black border-secondary h-100 btn btn-outline-light mt-3">
+          <div class="card-body btn btn-outline-light mt-3">
+            <h5 class="card-title">Project Consultations for School Requirements</h5>
+            <p class="card-text">Stuck on a tech project? I can help you plan or troubleshoot assignments, especially those that involve coding and interface design.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-black border-secondary h-100 btn btn-outline-light mt-3">
+          <div class="card-body btn btn-outline-light mt-3">
+            <h5 class="card-title">Personal or Academic Website Development</h5>
+            <p class="card-text">I can create clean, modern websites for personal use or school projects, using HTML, CSS, and responsive design.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-black border-secondary h-100 btn btn-outline-light mt-3">
+          <div class="card-body btn btn-outline-light mt-3">
+            <h5 class="card-title">Basic Functionality with JavaScript or VB.NET</h5>
+            <p class="card-text">Need interactive features like forms, validation, or basic apps? I can build simple logic and functionality for your site or project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 border-top border-secondary">
+    <p>&copy; 2025 Beyond the Screen. All rights reserved.</p>
+  </footer>
+
+    <style>
+  body {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  .btn-outline-light {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn-outline-light:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .nav-link.active {
+  border-bottom: 3px solid var(--accent-color);
+  font-weight: bold;
+  color: skyblue;
+}
+.navbar{
+  padding:  1.5rem 0 !important;
+}
+.navbar-brand{
+  font-weight:  bold !important;
+  font-size: 1.5rem !important;
+}
+.navbar-nav .nav-link{
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.navbar-toggler{
+  font-size: 1.5rem !important;
+}
+.navbar-dark  .navbar-nav .nav-link{
+  color: #ffffff !important;
+}
+.navbar-dark  .navbar-nav .nav-link:hover{
+  color: #007bff !important;
+}
+.nav-link.active{
+  color:  #007bff !important;
+  font-weight: bold;
+  border-bottom: 2px solid  #007bff;
+}
+</style>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
